@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="netflixStyle.css">
+</head>
+
+
+<body>
+
+    <!-- <div class="vcontainer" id="vcontainer">
+        <div class="vcontent" id="vcontent">
+            <div class="vinner-content" id="item1">
+                <div class="vnested-content" id="inner1">
+                    <div class="circle"></div>
+                    <br><br>
+                    <h1><strong>The FAANG</strong></h1>
+                    <br>
+                    <hr>
+                </div>
+                <div class="vnested-content" id="inner2">
+                    <br>
+                    <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eos eveniet, hic quis earum
+                        praesentium quo et maxime veniam fugit ipsa tempora aperiam maiores alias amet similique ipsum
+                        dolores provident porro. Pariatur, quaerat voluptates. Suscipit fugit impedit voluptatum
+                        possimus recusandae pariatur illum? Reiciendis veritatis rem inventore, doloribus eius
+                        voluptates vitae nam officia mollitia libero laboriosam labore deserunt facilis aperiam sunt
+                        enim magni doloremque eum neque ipsum! Quibusdam ad aspernatur rem, enim saepe a officia nemo
+                        nam odit incidunt fuga impedit.
+                    </h3>
+                    <br>
+                    <h3>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae minima praesentium odio
+                        officiis, illo perferendis harum consequuntur velit, eligendi, eaque repellendus assumenda
+                        distinctio nesciunt consequatur repellat! Inventore quasi vitae sit ut rerum aut dicta! Quas,
+                        quos ullam inventore magni voluptas, alias ab, minima repellendus distinctio ex eius tempore
+                        cupiditate commodi quod placeat? Aliquam, iusto ut?
+                    </h3>
+                    <br>
+                    <h2>
+                        LEARN MORE
+                    </h2>
+                </div>
+            </div>
+            <div class="vinner-content" id="item2">
+                <img src="netflix.jpg" class="netflix" alt="">
+            </div>
+        </div>
+    </div> -->
+    <!-- <section class=" cont text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The FAANG
+
+                </h1>
+                <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusantium
+                    similique doloribus maxime consequatur nobis sunt, voluptatem architecto voluptatum eligendi facere
+                    nemo officia, iure asperiores consectetur temporibus ducimus perspiciatis ut qui molestias deserunt
+                    expedita est ad! Harum libero nam quasi ducimus nostrum ut dolore facere in soluta maiores nemo
+                    itaque porro aliquam, nulla esse quo, ex eligendi sequi, vel totam?</p>
+                <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusantium
+                    similique doloribus maxime consequatur nobis sunt, voluptatem architecto voluptatum eligendi facere
+                    nemo officia, iure asperiores consectetur temporibus ducimus perspiciatis ut qui molestias deserunt
+                    expedita est ad! Harum libero nam quasi ducimus nostrum ut dolore facere in soluta maiores nemo
+                    itaque porro aliquam, nulla esse quo, ex eligendi sequi, vel totam?</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="netflix object-cover object-center rounded" alt="hero" src="netflix.jpg">
+            </div>
+        </div>
+    </section> -->
+
+
+    <div class="vcontainer">
+        <div class="vitem" id="vitem1">
+            <div class="circle"></div>
+            <div class="maincont">
+                <h2>The FAANG</h2>
+                <br>
+
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla omnis accusantium, alias optio
+                    laborum
+                    amet
+                    nisi excepturi sapiente tempore, voluptatum repudiandae expedita? Saepe possimus odit obcaecati
+                    dolorem
+                    maxime a odio excepturi, ad porro, quas molestiae, quasi nesciunt? Quos nesciunt nisi doloremque
+                    reprehenderit asperiores earum, nam quibusdam. Voluptatum fugit dolorum consequatur.</h3>
+                <br>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error libero magni ipsum ad minima corporis
+                    veritatis aspernatur voluptatem eum excepturi. Laboriosam quisquam quis deleniti hic doloremque
+                    debitis
+                    excepturi eaque, praesentium officia id nesciunt veniam recusandae cumque mollitia perferendis nam?
+                    Laboriosam?</h3>
+                <br>
+                <button class="vlearn">Learn More</button>
+            </div>
+        </div>
+        <div class="vitem" id="vitem2">
+            <img class="netflix" id="imgs" src="netflix.jpg" alt="">
+            <div class="dots">
+                <div class="minidots" id="dots1"><button onclick="google()" id="1d"></button></div>
+                <div class="minidots" id="dots2"><button id="2d"></button></div>
+                <div class="minidots" id="dots3"><button id="3d"></button></div>
+                <div class="minidots" id="dots4"><button id="4d"></button></div>
+                <div class="minidots" id="dots5"><button id="5d"></button></div>
+            </div>
+        </div>
+    </div>
+    <script>function google() {
+            document.getElementById("imgs").src = "google.jpg";
+        }</script>
+</body>
+
+</html>

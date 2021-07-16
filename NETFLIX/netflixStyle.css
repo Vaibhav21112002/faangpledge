@@ -1,0 +1,109 @@
+* {
+  margin: 4px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+}
+
+.vcontainer {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.netflix {
+  width: 450px;
+  border-radius: 50%;
+  height: 450px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+.maincont {
+  margin: 5%;
+}
+#vitem1 {
+  flex-grow: 2;
+  width: 50vh;
+  margin: 2%;
+}
+#vitem2 {
+  display: flex;
+  flex-grow: 1;
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.vlearn {
+  padding: 5px;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 0px solid black;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.minidots {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid rgba(56, 53, 53, 0.7);
+
+  margin: 25px;
+}
+#dots1 {
+  background-color: yellow;
+}
+#dots2 {
+  background-color: rgb(255, 145, 0);
+}
+#dots3 {
+  background-color: rgb(255, 72, 0);
+}
+#dots4 {
+  background-color: rgb(89, 0, 255);
+}
+#dots5{
+  background-color: rgb(234, 0, 255);
+}
+@media screen and (max-width: 900px) {
+  .vcontainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  #vitem2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #vitem1 {
+    flex-grow: 2;
+    width: 100%;
+    margin: 2%;
+  }
+  .netflix {
+    width: 300px;
+    border-radius: 50%;
+    height: 300px;
+  }
+  .dots {
+    display: flex;
+    flex-direction: row;
+  }
+}
