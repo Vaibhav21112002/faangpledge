@@ -17,6 +17,22 @@
   width: 450px;
   border-radius: 50%;
   height: 450px;
+  transition: width 1s, height 1s, box-shadow 2s;
+}
+
+@keyframes spin3D {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.netflix:hover {
+  animation: spin3D 5s ease infinite;
+  width: 475px;
+  height: 475px;
+  box-shadow: 10px 5px 250px rgb(255, 0, 0);
 }
 .circle {
   width: 100px;
@@ -73,7 +89,7 @@
 #dots4 {
   background-color: rgb(89, 0, 255);
 }
-#dots5{
+#dots5 {
   background-color: rgb(234, 0, 255);
 }
 @media screen and (max-width: 900px) {
