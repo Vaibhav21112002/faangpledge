@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#first-page {
+  background-image: url("./bg-2.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.parent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-1 {
+  margin: 0.25em;
+  padding: 0.25em;
+  font-size: 5em;
+  color: white;
+  margin-bottom: -0.5em;
+}
+
+.box-2 {
+  display: flex;
+  margin: 0.25em;
+  padding: 0.25em;
+  font-size: 5em;
+  color: white;
+}
+
+.box-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subbox-1 {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  color: black;
+  font-weight: 600;
+}
+
+.subbox-2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.pledge-btn {
+  font-size: 0.2em;
+  margin: 0.5em;
+  padding: 0.5em 1.2em;
+  border: none;
+  cursor: pointer;
+  background: rgb(235, 177, 15);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 177, 15, 1) 0%,
+    rgba(236, 136, 14, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 0.1em;
+  box-shadow: 5px 4px 13px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 4px 13px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 4px 13px -2px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.pledge-btn:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  margin: 0 1em;
+}
+
+@media screen and (max-width: 700px) {
+  .box-1 {
+    font-size: 4em;
+  }
+  .box-2 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .box-1 {
+    font-size: 3em;
+  }
+  .box-2 {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 436px) {
+  /* .parent {
+    justify-content: space-around;
+  } */
+  .box-1 {
+    font-size: 2.5em;
+  }
+  .box-2 {
+    font-size: 2.8em;
+  }
+  .box-3 {
+    padding-top: 100px;
+  }
+  .icon {
+    margin: 0 0.5em;
+  }
+}
+@media screen and (max-width: 370px) {
+  /* .parent {
+    justify-content: space-around;
+  } */
+  .box-1 {
+    font-size: 2em;
+  }
+  .box-2 {
+    font-size: 2em;
+  }
+  .box-3 {
+    padding-top: 80px;
+  }
+  .icon {
+    margin: 0 0.5em;
+  }
+}
